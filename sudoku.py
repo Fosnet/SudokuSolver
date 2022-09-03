@@ -1,7 +1,7 @@
 import copy
 
 
-class Grid:
+class Sudoku:
     def __init__(self, grid):
         self.grid = grid
         self.all_squares = [(0, 0), (0, 3), (0, 6), (3, 0), (3, 3), (3, 6), (6, 0), (6, 3), (6, 6)]
